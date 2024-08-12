@@ -4,7 +4,6 @@ label{
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
 }
-:has(#color-lock:checked) label:not(.color-lock){ pointer-events: none; }
 
 #black + label{ background-color: black; }
 #red + label{ background-color: red; }
@@ -21,6 +20,7 @@ label{
 :has(#green:checked) h1{ color: green; }
 :has(#blue:checked) h1{ color: blue; }
 :has(#purple:checked) h1{ color: purple; }
+:has(#color-lock:checked) label:not(.color-lock){ pointer-events: none; }
 
 input:not(#color-lock):checked + label{
   background-color: white !important;
