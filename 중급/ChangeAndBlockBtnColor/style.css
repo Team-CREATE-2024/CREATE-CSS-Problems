@@ -14,13 +14,13 @@ label{
 #blue + label { background-color: blue; }
 #purple + label { background-color: purple; }
 
-:has(#black:checked) h1{ color: black}
-:has(#red:checked) h1{ color: red}
-:has(#orange:checked) h1{ color: orange}
-:has(#yellow:checked) h1{ color: yellow}
-:has(#green:checked) h1{ color: green}
-:has(#blue:checked) h1{ color: blue}
-:has(#purple:checked) h1{ color: purple}
+:has(#black:checked) h1{ color: black; }
+:has(#red:checked) h1{ color: red; }
+:has(#orange:checked) h1{ color: orange; }
+:has(#yellow:checked) h1{ color: yellow; }
+:has(#green:checked) h1{ color: green; }
+:has(#blue:checked) h1{ color: blue; }
+:has(#purple:checked) h1{ color: purple; }
 
 input:not(#color-lock):checked + label{
   background-color: white !important;
