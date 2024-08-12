@@ -1,4 +1,4 @@
-# CREATE 초급 1전째 문제
+# CREATE 중급 1번째 문제
 > HTML CSS
 > 
 > 난이도: 보통
